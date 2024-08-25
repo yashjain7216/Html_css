@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* header {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+} */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.post-header {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.post-header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-header h2 {
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.post-meta {
+    /* color: #777; */
+    font-size: 1rem;
+    background-color: #333;
+}
+
+#tag{
+    background-color: #555;
+}
+
+.post-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    /* background-color: #fff; */
+    padding: 20px;
+    /* border: 1px solid #eaeaea; */
+    /* border-radius: 5px; */
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.post-body {
+    flex: 3;
+    /* background-color: #fff; */
+    padding: 20px;
+    /* border: 1px solid #eaeaea;
+    border-radius: 5px; */
+}
+
+.related-post {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    justify-content: flex-end;
+}
+
+.related-post img {
+    width: 100px;
+    height: auto;
+}
+
+.like-section{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.icon {
+    width: 14px; 
+    height: 14px; 
+    margin-right: 10px; 
+}
+
+.like-section span {
+    font-size: 14px;
+    color: #555;
+}
+.share-section{
+    margin-left: 100%;
+}
+.comments-section {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.comments textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.comment {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#yammer-integration{
+    color: rgb(55, 53, 183);
+}
+
+.yammer-integration {
+    margin-top: 20px;
+}
+
+.yammer-comment {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.yammer-comment img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* .recommended-blogs {
+    max-width: 1200px;
+    margin: 40px auto;
+} */
+
+.recommended-blog  {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    align-items: center;
+} 
+
+
+.main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.other-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+.article image {
+    width: 50%;
+    height: auto;
+    /* background-color: #fff;  */
+    /* padding: 15px; */
+} 
+.article-content{
+    background-color: #fff; 
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}  
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.article h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.article p {
+    color: #555;
+    font-size: 14px;
+}
+.article-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.article-info{
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px;
+}
+
+.blog-post {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-post img {
+    width: 150px;
+    height: auto;
+}
+
+.blog-post div {
+    flex: 1;
+}
+
+
+.pagination {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0; 
+}
+
+.pagination a {
+    text-decoration: none; 
+    color: #007bff; 
+    padding: 10px 15px; 
+    margin: 0 5px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.pagination a.active {
+    background-color: #007bff; 
+    color: white; 
+}
+
+.pagination a:hover {
+    background-color: #e7f1ff; 
+}
